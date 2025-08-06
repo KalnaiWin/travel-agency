@@ -1,9 +1,16 @@
-import React from 'react'
+import { Header } from "components";
+import React from "react";
 
 const AllUsers = () => {
   return (
-    <div>AllUsers</div>
-  )
-}
+    <main className="dashboard wrapper">
+      <Header
+        title={`Trips pay`}
+        description="Check out our users in real time"
+      />
+      All Users Page Contents
+    </main>
+  );
+};
 
-export default AllUsers
+export default AllUsers;
